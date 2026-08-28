@@ -1,0 +1,3 @@
+C:/Users/siddh/Software/repos/tracerola/build/CMakeFiles/tracerola.dir
+C:/Users/siddh/Software/repos/tracerola/build/CMakeFiles/edit_cache.dir
+C:/Users/siddh/Software/repos/tracerola/build/CMakeFiles/rebuild_cache.dir
