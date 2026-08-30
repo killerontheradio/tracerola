@@ -126,3 +126,4 @@ C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/
 C:/Users/siddh/Software/repos/tracerola/vec3.h
 C:/Users/siddh/Software/repos/tracerola/color.h
 C:/Users/siddh/Software/repos/tracerola/ray.h
+C:/Users/siddh/Software/repos/tracerola/rtc.h

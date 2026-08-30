@@ -3,25 +3,22 @@
 #ifndef COLOR_H
 #define COLOR_H
 
-#include "vec3.h"
 
-#include <iostream>
+#include "vec3.h"
 
 using color = vec3;
 
-void put_pixel(std::ostream& out, const color& pixel_color)
-{
-	auto r = pixel_color.x();
-	auto g = pixel_color.y();
-	auto b = pixel_color.z();
+inline void write_color(std::ostream& out, const color& pixel_clr) {
+    const auto r{ pixel_clr.x() };
+    const auto g{ pixel_clr.y() };
+    const auto b{ pixel_clr.z() };
 
-	int rbyte = static_cast<int>(255.999 * r);
-	int gbyte = static_cast<int>(255.999 * g);
-	int bbyte = static_cast<int>(255.999 * b);
+    const int rbyte{ static_cast<int>(255.999 * r) };
+    const int gbyte{ static_cast<int>(255.999 * g) };
+    const int bbyte{ static_cast<int>(255.999 * b) };
 
-	out << rbyte << ' ' << gbyte << ' ' << bbyte << '\n';
+    out << rbyte << ' ' << gbyte << ' ' << bbyte << '\n';
 }
-
 
 
 #endif // !COLOR_H
